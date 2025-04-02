@@ -49,7 +49,8 @@ geom_keskmine = math.prod(numbers) ** (1/n)  # Arvutab geomeetrilise keskmise (k
 korrutis = math.prod(numbers)  # Arvutab arvude korrutise
 print(f"summa: {summa}, aritmeetiline keskmine: {keskmine}, geomeetriline keskmine: {geom_keskmine}, korrutis: {korrutis}")
 
+
+
 # Ülesanne 20
 numbers = [int(input(f"sisesta {i+1}. neljakohaline arv: ")) for i in range(4)]  # Kogub 4 neljakohalist arvu
 print(f"suurim arv: {max(numbers)}, väikseim arv: {min(numbers)}")  # Kuvab suurima ja väikseima arvu
-
